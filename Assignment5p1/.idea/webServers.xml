@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9e3742c2-45df-4b4f-a77e-977419c0979e" name="TSU Linux (project level)" url="http://kf1127@eros.cs.txstate.edu">
+        <fileTransfer host="kf1127@eros.cs.txstate.edu" port="22" rootFolder="/home/Students/kf1127" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

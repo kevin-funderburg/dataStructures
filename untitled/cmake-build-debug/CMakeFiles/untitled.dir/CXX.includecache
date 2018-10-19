@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/untitled/main.cpp
+iostream
+-
+

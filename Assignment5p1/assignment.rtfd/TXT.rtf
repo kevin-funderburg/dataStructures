@@ -1,0 +1,1796 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Bold;\f2\froman\fcharset0 Times-Italic;
+\f3\fmodern\fcharset0 Courier-Bold;\f4\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red190\green0\blue4;\red0\green0\blue233;
+\red109\green109\blue109;\red133\green0\blue2;\red255\green255\blue84;\red251\green0\blue7;\red66\green1\blue120;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c80000\c0\c0;\cssrgb\c0\c0\c93333;
+\cssrgb\c50196\c50196\c50196;\cssrgb\c60000\c0\c0;\cssrgb\c100000\c100000\c40000;\cssrgb\c100000\c0\c0;\cssrgb\c33333\c10196\c54510;
+}
+\margl1440\margr1440\vieww17480\viewh25340\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic BannerLine1.gif \width11080 \height520 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs48 \cf0 Assignment 5
+\f0\b0\fs32  \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b\fs36 \cf0 (posted 10/10/18,\'a0\cf3 DUE 10/17/2018\cf0 )
+\f0\b0\fs32 \
+\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth30540\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth30540\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 In this assignment, you are to write and test C++ code (using a 
+\f2\i separate program for each part
+\f0\i0 ) as described below.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth30540\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth440\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL1_7x15.gif \width140 \height300 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b\fs36 \cf0 Part 1 (50 points)
+\f0\b0\fs32 \cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth440\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 ({\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Assign/Assign05P1SuppliedFiles.zip"}}{\fldrslt \cf4 \ul \ulc4 Supplied Files}})\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth440\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 A linked-list processing function\'a0
+\f3\b\fs26 MakeDistinctPairs
+\f0\b0\fs32  that is to process a linked list as follows.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Does nothing if given list is empty.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If given list is not empty, process it so that it contains a sequence of "distinct item pairs".\'a0\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 The distinct data items are derived from the data items in the given list:\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If given list (originally) has 
+\f2\i multiple nodes
+\f0\i0  containing a certain distinct value, the 
+\f2\i second such node
+\f0\i0  (
+\f2\i i.e.
+\f0\i0  the 
+\f2\i earliest
+\f0\i0  
+\f2\i duplicate
+\f0\i0 ) is to be \ul detached\ulnone  and \ul inserted\ulnone  
+\f2\i right after
+\f0\i0  the\'a0
+\f2\i first such node
+\f0\i0  (to form a pair).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clvertalt \clshdrawnil \clwWidth1780\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clvertalc \clshdrawnil \clwWidth25445\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \ul \ulc0 NOTE\ulnone :\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Although the node to be detached does not have to be the 
+\f2\i first duplicate
+\f0\i0  and the insertion does not have to be\'a0
+\f2\i right after
+\f0\i0  (
+\f2\i i.e.
+\f0\i0 , it can also be 
+\f2\i right before
+\f0\i0 ) the\'a0
+\f2\i first
+\f0\i0  for the function to work as intended, 
+\f2\i you are to make it so
+\f0\i0  for the purpose of this exercise.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clvertalt \clshdrawnil \clwWidth1780\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clvertalc \clshdrawnil \clwWidth25445\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \ul NOTE\ulnone :\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Of course, no detaching-and-inserting work is necessary if the "
+\f2\i second such node
+\f0\i0 " is already right after the "
+\f2\i first such node
+\f0\i0 ".\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 All
+\f2\i  remaining duplicates
+\f0\i0  (if any, of a certain distinct value) are to be \ul deleted\ulnone  from the list.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clvertalt \clshdrawnil \clwWidth1780\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clvertalc \clshdrawnil \clwWidth25445\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \ul NOTE\ulnone :\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 No memory leak should be incurred, of course.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If given list (originally) has 
+\f2\i only a single node
+\f0\i0  containing a certain distinct value, a 
+\f2\i new node
+\f0\i0  for the value is to be \ul created\ulnone  and \ul inserted\ulnone  
+\f2\i right after
+\f0\i0  it (to form a pair).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 The distinct values (one for each pair)\'a0must appear 
+\f2\i in the same order
+\f0\i0  in which the 
+\f2\i first
+\f0\i0  of the corresponding values\'a0originally (upon entering the function) appear in the given list.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Examples: (see 
+\f3\b\fs26 a5p1test.out
+\f0\b0\fs32  of {\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Assign/Assign05P1SuppliedFiles.zip"}}{\fldrslt \cf4 \ul \ulc4 Supplied Files}} for more)\'a0\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth582\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1440
+\clvertalt \clshdrawnil \clwWidth582\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clmgf \clvertalt \clshdrawnil \clwWidth29215\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clmrg \clvertalt \clshdrawnil \clwWidth29215\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clmrg \clvertalt \clshdrawnil \clwWidth29215\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7200
+\clmrg \clvertalt \clshdrawnil \clwWidth29215\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrt\brdrs\brdrw20\brdrcf5 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+
+\f2\i \cf0 List before
+\f0\i0 \nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+
+\f2\i \cf0 List after
+\f0\i0 \nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 (empty) 
+\f4\fs26 \nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf0 (empty) 
+\f4\fs26 \nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 5
+\f0\fs32  
+\f4\fs26 \nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 5 \'a05
+\f0\fs32  
+\f4\fs26 \nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 5\'a0 2\'a0 4\'a0 5\'a0 4\nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 5\'a0 5\'a0 2\'a0 2\'a0 4\'a0 4
+\f0\fs32  
+\f4\fs26 \nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 1\'a0 2\'a0 3\'a0 3\'a0 1\'a0 3\'a0 2\nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 1\'a0 1\'a0 2\'a0 2\'a0 3\'a0 3
+\f0\fs32  
+\f4\fs26 \nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 1\'a0 3\'a0 1\'a0 1\'a0 0\'a0 4\'a0 3\'a0 2\'a0 0\'a0 3\'a0 2\'a0 2\'a0 2\'a0 2\'a0 3\'a0 4\'a0 1\'a0 1\'a0 2\nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 1\'a0 1\'a0 3\'a0 3\'a0 0\'a0 0\'a0 4\'a0 4\'a0 2\'a0 2
+\f0\fs32  
+\f4\fs26 \nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 3\'a0 0\'a0 2\'a0 2\'a0 2\'a0 0\'a0 1\'a0 5\'a0 1\'a0 0\'a0 0\'a0 4\'a0 4\'a0 1\'a0 0\'a0 5\nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 3\'a0 3\'a0 0\'a0 0\'a0 2\'a0 2\'a0 1\'a0 1\'a0 5\'a0 5\'a0 4\'a0 4\nestcell \nestrow
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29175\trftsWidth3 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrb\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth17910\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth11105\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+\cf0 5\'a0 5\'a0 5\'a0 5\'a0 2\'a0 3\'a0 1\'a0 3\'a0 3\'a0 2\'a0 3\'a0 0\'a0 2\'a0 4\'a0 1\'a0 4
+\f0\fs32 \nestcell 
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 5\'a0 5\'a0 2\'a0 2\'a0 3\'a0 3\'a0 1\'a0 1\'a0 0\'a0 0\'a0 4\'a0 4
+\f0\fs32 \nestcell \lastrow\nestrow\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b \cf3 \ul \ulc3 IMPORTANT
+\f0\b0 \cf0 \ulnone  requirements (
+\f2\i you will earn little or no points if you don't do according to these
+\f0\i0 ):\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Algorithm should:\'a0\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \ul \ulc0 NOT\ulnone  change the data of any existing nodes.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Destroy \ul ONLY\ulnone  existing nodes\'a0that constitute 
+\f2\i second duplicate
+\f0\i0 , 
+\f2\i third duplicate
+\f0\i0 , 
+\f2\i etc
+\f0\i0 . of a certain distinct value.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmgf \clvertalt \clshdrawnil \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Recall that the
+\f2\i  first duplicate
+\f0\i0  is not to be destroyed but instead detached and inserted (unless it is already at where it should be).\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Create new nodes\'a0and copy data between nodes \ul ONLY\ulnone  under the "given list (originally) has only a single node containing a certain distinct value" circumstances.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmgf \clvertalt \clshdrawnil \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Creating 
+\f2\i pointer-to-node
+\f0\i0 's (to provide temporary storage for node addresses) does 
+\f2\i \ul not
+\f0\i0 \ulnone  constitute creating new nodes or copying of items.\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \ul NOT\ulnone  make any temporary copies of any of the data items (using any kind of data structures including but not limited to arrays, linked lists and trees).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmgf \clvertalt \clshdrawnil \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 This means that the algorithm should largely involve the manipulation of pointers.\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Function must be 
+\f2\i iterative
+\f0\i0  (\ul NOT\ulnone  recursive) - use only looping construct(s), without the function calling itself (directly or indirectly).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Function should
+\f2\i  
+\f0\i0 \ul NOT\ulnone  call any other functions to help in performing the task.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth440\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\i\fs36 \cf0 Your Tasks
+\f0\i0\fs32 \cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Read the description thoroughly and carefully to understand exactly what\'a0
+\f3\b\fs26 MakeDistinctPairs
+\f0\b0\fs32  is meant to do and the 
+\f1\b \cf3 \ul \ulc3 IMPORTANT
+\f0\b0 \cf0 \ulnone  requirements you must meet when implementing the function.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Fill in the prototype for\'a0
+\f3\b\fs26 MakeDistinctPairs
+\f0\b0\fs32  in the supplied header file (
+\f3\b\fs26 llcpInt.h
+\f0\b0\fs32 ).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Fill in the definition for\'a0
+\f3\b\fs26 MakeDistinctPairs
+\f0\b0\fs32  in the supplied implementation file (
+\f3\b\fs26 llcpImp.cpp
+\f0\b0\fs32 ).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Test/debug your code using the supplied tester file (
+\f3\b\fs26 Assign05P1.cpp
+\f0\b0\fs32 ) and 
+\f3\b\fs26 Makefile
+\f0\b0\fs32 .\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Do 
+\f3\b\fs26 \cf6 make
+\f0\b0\fs32 \cf0  to compile or re-compile.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Do 
+\f3\b\fs26 \cf6 make go
+\f0\b0\fs32 \cf0  (after successful compilation or re-compilation) to test with result output to terminal.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Program will (display some error messages and) abort on the first detection of an incorrect outcome (associated with a certain test case).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If the program hangs, it typically means your code has led to an infinite loop. Regardless, you should do 
+\f3\b\fs26 \cf6 Ctrl-c
+\f0\b0\fs32 \cf0  to get out of the hanged state.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If you need to identify which specific test case causes the program to hang or quit abruptly ("bomb out" due to segmentation fault, for instance), uncomment the 
+\f3\b\fs26 DebugShowCase
+\f0\b0\fs32  line (Line\'a074 in 
+\f3\b\fs26 Assign05P1.cpp
+\f0\b0\fs32  as supplied), then re-compile the program and re-run the test.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clvertalt \clshdrawnil \clwWidth567\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmgf \clvertalt \clcbpat7 \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clcbpat7 \clwWidth27302\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL5_6x12.gif \width120 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If you do enable 
+\f3\b\fs26 DebugShowCase
+\f0\b0\fs32  (uncomment Line\'a074 in 
+\f3\b\fs26 Assign05P1.cpp
+\f0\b0\fs32 ) during debugging, be sure to 
+\f2\i \cf3 revert it back to disabled
+\f0\i0 \cf0  when generating the test output (
+\f3\b\fs26 a5p1test.out
+\f0\b0\fs32 ) for hardcopy submission, otherwise the test output can be humongous.\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmgf \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Do 
+\f3\b\fs26 \cf6 make gogo
+\f0\b0\fs32 \cf0  (after successful compilation or re-compilation) to test with result (excluding progress-logging messages) output to file (
+\f3\b\fs26 a5p1test.out
+\f0\b0\fs32 ).\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmgf \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 (The 
+\f3\b\fs26 a5p1test.out
+\f0\b0\fs32  included in the {\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Assign/Assign05P1SuppliedFiles.zip"}}{\fldrslt \cf4 \ul \ulc4 Supplied Files}} was generated by compiling and running the program on the CS Linux server. Expect the test cases to be different if another system is used since the algorithm used for the pseudo-random number generator vary from system to system.)\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth440\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\i\fs36 \cf0 Deliverables
+\f0\i0\fs32 \cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Source files: 
+\f3\b\fs26 llcpInt.h
+\f0\b0\fs32  and 
+\f3\b\fs26 llcpImp.cpp
+\f0\b0\fs32 . (hardcopy and softcopy)\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Test results: 
+\f3\b\fs26 a5p1test.out
+\f0\b0\fs32  (as generated by 
+\f2\i your code
+\f0\i0  when you do 
+\f3\b\fs26 \cf6 make gogo
+\f0\b0\fs32 \cf0 ). (hardcopy only)\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth30540\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth440\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth23519\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL1_7x15.gif \width140 \height300 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f1\b\fs36 \cf0 Part 2 (50 points)
+\f0\b0\fs32 \cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 This part of the assignment aims at providing you with a programming exercise involving 
+\f2\i linked list
+\f0\i0 , 
+\f2\i stack
+\f0\i0 , 
+\f2\i queue
+\f0\i0 , and the 
+\f2\i STL
+\f0\i0\fs36 .
+\fs32 \cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 You are to study and complete {\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Assign/Assign05P2SuppliedFiles.zip"}}{\fldrslt \cf4 \ul \ulc4 this supplied partial program}} that does the following:\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Use the STL
+\f3\b\fs26  stack 
+\f0\b0\fs32 template class to develop a custom 
+\f2\i queue
+\f0\i0  class (named
+\f3\b\fs26  cnPtrQueue
+\f0\b0\fs32 ).\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Further information on implementing a 
+\f2\i queue using 2 stacks
+\f0\i0  is available {\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Exampl/StackQueueAppEg01_ImpQueueWithStacks_Pseudocode.html"}}{\fldrslt \cf4 \ul \ulc4 here}}.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1728
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3456
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5184
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6912
+\clvertalc \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 The
+\f3\b\fs26  cnPtrQueue 
+\f0\b0\fs32 has member variable
+\f3\b\fs26  numItems 
+\f0\b0\fs32 (that keeps track of the number of items in the queue), which should be helpful for implementing the member function
+\f3\b\fs26  size() 
+\f0\b0\fs32 (for inspecting the number of items in the queue).\'a0\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2880
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Use the
+\f3\b\fs26  cnPtrQueue 
+\f0\b0\fs32 to perform a 
+\f2\i breadth-first (level) traversal
+\f0\i0  of a 
+\f2\i linked list of linked lists
+\f0\i0  data structure and process (print) the data items stored in the structure.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Further information on 
+\f2\i linked list of linked lists
+\f0\i0  and 
+\f2\i level traversal using queue
+\f0\i0  is available {\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Exampl/StackQueueAppEg02_LevelTravOfLLofLL_Pseudocode.html"}}{\fldrslt \cf4 \ul \ulc4 here}}.\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Test your completed program with 
+\f2\i at least
+\f0\i0  the supplied the test input file (
+\f3\b\fs26 a5p2_test.in
+\f0\b0\fs32 ) : 
+\f3\b\fs26 \cf6 make test
+\f0\b0\fs32 \cf0  (or, if you prefer to do it "manually", 
+\f3\b\fs26 \cf6 ./a5p2 auto < a5p2_test.in > a5p2_test.out
+\f0\b0\fs32 \cf0 ). The correct output should look as follows:\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+
+\itap2\trowd \taflags0 \trgaph108\trleft-108 \trwWidth29849\trftsWidth3 \trbrdrt\brdrs\brdrw20\brdrcf5 \trbrdrl\brdrs\brdrw20\brdrcf5 \trbrdrb\brdrs\brdrw20\brdrcf5 \trbrdrr\brdrs\brdrw20\brdrcf5 
+\clvertalc \clshdrawnil \clwWidth29769\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf5 \clbrdrl\brdrs\brdrw20\brdrcf5 \clbrdrb\brdrs\brdrw20\brdrcf5 \clbrdrr\brdrs\brdrw20\brdrcf5 \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap2\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 \
+\
+Dynamic memory for 0 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 1 PNodes freed
+\f0\fs32  \
+
+\f4\fs26 11\'a0
+\f0\fs32  \
+
+\f4\fs26 11\'a0
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 1 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 1 PNodes freed
+\f0\fs32  \
+
+\f4\fs26 11\'a0 12\'a0 13\'a0 14\'a0
+\f0\fs32  \
+
+\f4\fs26 11\'a0 12\'a0 13\'a0 14\'a0
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 4 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 1 PNodes freed
+\f0\fs32  \
+
+\f4\fs26 21\'a0 22\'a0 23\'a0 24\'a0
+\f0\fs32  \
+
+\f4\fs26 21\'a0 22\'a0 23\'a0 24\'a0
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 0 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 4 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 2 PNodes freed
+\f0\fs32  \
+
+\f4\fs26 11\'a0 12\'a0 13\'a0 14\'a0
+\f0\fs32  \
+
+\f4\fs26 11\'a0 12\'a0 13\'a0 14\'a0
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 4 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 0 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 2 PNodes freed
+\f0\fs32  \
+
+\f4\fs26 11\'a0 12\'a0 13\'a0 14\'a0 21\'a0 41\'a0 42\'a0
+\f0\fs32  \
+
+\f4\fs26 11\'a0 21\'a0 41\'a0 12\'a0 42\'a0 13\'a0 14\'a0
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 4 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 1 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 0 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 2 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 4 PNodes freed
+\f0\fs32  \
+
+\f4\fs26 21\'a0 22\'a0 23\'a0 24\'a0 31\'a0 51\'a0 52\'a0
+\f0\fs32  \
+
+\f4\fs26 21\'a0 31\'a0 51\'a0 22\'a0 52\'a0 23\'a0 24\'a0
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 0 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 4 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 1 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 0 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 2 CNodes freed
+\f0\fs32  \
+
+\f4\fs26 Dynamic memory for 5 PNodes freed
+\f0\fs32 \nestcell \lastrow\nestrow\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth19760\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth352\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\i\fs36 \cf0 Your Tasks
+\f0\i0\fs32 \cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Study the supplied files - how they all relate to each other.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Fill in the "holes" intentionally left:\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Implementation of 
+\f3\b\fs26 cnPtrQueue
+\f0\b0\fs32  in 
+\f3\b\fs26 cnPtrQueue.cpp
+\f0\b0\fs32 .\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth569\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth28592\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL3_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Function body of 
+\f3\b\fs26 ShowAll_BF
+\f0\b0\fs32  in 
+\f3\b\fs26 nodes_LLoLL.cpp
+\f0\b0\fs32 .\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1728
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3456
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx5184
+\clvertalt \clshdrawnil \clwWidth568\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6912
+\clvertalc \clshdrawnil \clwWidth27946\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL4_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 You are to put the
+\f3\b\fs26  cnPtrQueue 
+\f0\b0\fs32 (
+\f1\b \cf8 \ul \ulc8 NOT
+\f0\b0 \cf0 \ulnone  the STL queue) to use here.\
+(You will earn little or no credit if you use\'a0the STL queue).\'a0\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Test the "holes-filled-in" program.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Be sure to also read\'a0{\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Assign/Assign05P2_QandA.html"}}{\fldrslt \cf4 \ul \ulc4 this Q&A page}}.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth19760\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth352\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth19207\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\i\fs36 \cf0 Deliverables
+\f0\i0\fs32 \cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Source files:\'a0
+\f3\b\fs26 nodes_LLoLL.cpp
+\f0\b0\fs32 , 
+\f3\b\fs26 cnPtrQueue.cpp
+\f0\b0\fs32 . (softcopy and hardcopy)\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmgf \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29240\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL2_5x12.gif \width100 \height240 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Test\'a0output (corresponding to the supplied test input 
+\f3\b\fs26 a5p2_test.in
+\f0\b0\fs32 ):\'a0
+\f3\b\fs26 a5p2_test.out
+\f0\b0\fs32 . (hardcopy only)\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth30540\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell \lastrow\row
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\'a0
+\f1\b NOTES:
+\f0\b0 \
+\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL1_7x15.gif \width140 \height300 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 If you discover anything that appears incorrect, please let me know (through email) as soon as possible.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL1_7x15.gif \width140 \height300 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Be sure to include a separate cover page ({\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/ProgramEvaluationForm.pdf"}}{\fldrslt \cf4 \ul \ulc4 Program Evaluation Form}}) for each part.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clcbpat7 \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clcbpat7 \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clcbpat7 \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clcbpat7 \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clcbpat7 \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clcbpat7 \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 For Part 2, refer to \ul t{\field{\*\fldinst{HYPERLINK "https://userweb.cs.txstate.edu/~lk04/3358/Assign/Assign05P2PenaltyTallySheet.pdf"}}{\fldrslt \cf4 \ulc4 his penalty tally sheet}}\ulnone  to help you minimize losing points. \'a0\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trwWidth30660\trftsWidth3 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clwWidth570\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx1234
+\clmgf \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2468
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx3702
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4937
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6171
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx7405
+\clmrg \clvertalt \clshdrawnil \clwWidth29889\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 {{\NeXTGraphic BulletL1_7x15.gif \width140 \height300 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Be sure to check the homepage often for any further information related to this assignment.\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell 
+\pard\intbl\itap1\cell \lastrow\row
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+Use your browser's 
+\f1\b Back
+\f0\b0  button to go back to previous page. ({\field{\*\fldinst{HYPERLINK "http://www.cs.txstate.edu/%7Elk04"}}{\fldrslt \cf9 \ul \ulc9 click here to return to my homepage}}) \
+\
+}

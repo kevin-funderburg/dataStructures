@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:a3">
+   </FileRef>
+   <FileRef
+      location = "group:a3a">
+   </FileRef>
+   <FileRef
+      location = "group:a3atest.out">
+   </FileRef>
+   <FileRef
+      location = "group:Assign03.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:Assign03.o">
+   </FileRef>
+   <FileRef
+      location = "group:Assign03Auto.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:Assign03Auto.o">
+   </FileRef>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:MakefileAuto">
+   </FileRef>
+   <FileRef
+      location = "group:Sequence.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:Sequence.h">
+   </FileRef>
+   <FileRef
+      location = "group:Sequence.o">
+   </FileRef>
+</Workspace>

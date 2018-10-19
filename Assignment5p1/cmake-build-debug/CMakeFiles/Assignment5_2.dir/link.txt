@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Assignment5_2.dir/Assign05P1.cpp.o CMakeFiles/Assignment5_2.dir/llcpImp.cpp.o  -o Assignment5_2 
