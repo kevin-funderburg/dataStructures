@@ -39,9 +39,16 @@
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.Makefile.swp" beforeDir="false" />
+      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assign06P1A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assign06P1A.o" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a6p1A" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,30 +62,33 @@
     <session id="-2058952640">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CMakeCache.txt" value="1" />
           <entry key="ObjectiveC" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1381" />
+          <entry key="cpp" value="1523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1381" />
+          <entry key="ObjectiveC" value="1523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -89,17 +99,27 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-              <folding>
-                <element signature="e#4395#4439#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -154,6 +174,11 @@
               <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,9 +187,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myShowDebugConsoleByDefault" value="true" />
@@ -209,33 +235,37 @@
       <updated>1540256222842</updated>
       <workItem from="1540256224334" duration="110000" />
       <workItem from="1540268130761" duration="9866000" />
-      <workItem from="1540286197887" duration="8582000" />
+      <workItem from="1540286197887" duration="9170000" />
+      <workItem from="1540296969607" duration="537000" />
+      <workItem from="1540298666267" duration="9000" />
+      <workItem from="1540299252699" duration="2629000" />
+      <workItem from="1540312817088" duration="2677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18558000" />
+    <option name="totallyTimeSpent" value="24998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4574468" visible="true" weight="0.2991453" />
-      <window_info id="Structure" order="1" sideWeight="0.5425532" side_tool="true" visible="true" weight="0.2991453" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45362905" visible="true" weight="0.2039072" />
+      <window_info id="Structure" order="1" sideWeight="0.546371" side_tool="true" visible="true" weight="0.2039072" />
       <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49387756" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.39693877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.327551" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.23367347" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.327551" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32900944" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -257,23 +287,31 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Assign06P1A.cpp</url>
-          <line>158</line>
-          <option name="timeStamp" value="22" />
+          <line>154</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-          <folding>
-            <element signature="e#4395#4439#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
         </state>
       </provider>
     </entry>

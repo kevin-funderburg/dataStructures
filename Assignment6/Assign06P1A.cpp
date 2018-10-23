@@ -133,20 +133,11 @@ void DebugShowCase(int whichCase, int totalCasesToDo,
 //  -2  -1  8  0  4  -6  2
 // definition for LowIndexMinNeg (to be filled in - part of exercise)
 int LowIndexMinNeg(const int arr[], int n) {
-
-//    if (n == 1) {
-//        if (arr[0] >= 0) {
-//            return -999;
-//        } else {
-//            return 0;
-//        }
-//    }
-
     if (n < 1) return -999;
 
     if (n == 1)
     {
-        cout << "n == 1\tarr[0]: "  << arr[0] << "\n";
+//        cout << "n == 1\tarr[0]: "  << arr[0] << "\n";
 
         if (arr[0] < 0)
             return -999;
@@ -156,8 +147,10 @@ int LowIndexMinNeg(const int arr[], int n) {
 
 
 
-    int min1 = LowIndexMinNeg(arr + 1, n - 1) + 1;
+    int min1 = LowIndexMinNeg(arr + 1, n - 1);
+//    int min1 = LowIndexMinNeg(arr + 1, n - 1) + 1;
     int min2 = LowIndexMinNeg(arr - 1, n - 1);
+
 
     if (arr[0] < 0 && arr[0] <= arr[min1])
     {
@@ -167,17 +160,33 @@ int LowIndexMinNeg(const int arr[], int n) {
     {
         return 0;
     }
+    else if (arr[min2] < 0)
+    {
+        if(arr[min1] == arr[min2])
+        {
+            if(min1 < min2)
+                return min1;
+            else
+                return min2;
+        }
+        return min2;
+    }
+    else if(arr[min1] < 0)
+    {
+        if(arr[min1] == arr[min2])
+        {
+            if(min1 < min2)
+                return min1;
+            else
+                return min2;
+        }
+        return min1;
+    }
+    else
+    {
+        return -999;
+    }
 
-
-//    cout << "arr[0]:\t" << arr[0] << "\t<=?\t\tarr[minIndexTheRest + 1]:\t" << arr[minIndexTheRest + 1]
-//         << "\t\tminIndexTheRest: " << minIndexTheRest << "\tn: " << n << endl;
-//
-//
-//    if (arr[0] < 0 && arr[0] <= arr[minIndexTheRest + 1]) {
-//        return 0;
-//    } else {
-//        return 1 + minIndexTheRest;
-//    }
 
 }
 
