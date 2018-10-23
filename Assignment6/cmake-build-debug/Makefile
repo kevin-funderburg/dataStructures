@@ -123,32 +123,32 @@ Assignment6/fast:
 	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/build
 .PHONY : Assignment6/fast
 
-main.o: main.cpp.o
+Assign06P1A.o: Assign06P1A.cpp.o
 
-.PHONY : main.o
+.PHONY : Assign06P1A.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/main.cpp.o
-.PHONY : main.cpp.o
+Assign06P1A.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o
+.PHONY : Assign06P1A.cpp.o
 
-main.i: main.cpp.i
+Assign06P1A.i: Assign06P1A.cpp.i
 
-.PHONY : main.i
+.PHONY : Assign06P1A.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/main.cpp.i
-.PHONY : main.cpp.i
+Assign06P1A.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/Assign06P1A.cpp.i
+.PHONY : Assign06P1A.cpp.i
 
-main.s: main.cpp.s
+Assign06P1A.s: Assign06P1A.cpp.s
 
-.PHONY : main.s
+.PHONY : Assign06P1A.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/main.cpp.s
-.PHONY : main.cpp.s
+Assign06P1A.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment6.dir/build.make CMakeFiles/Assignment6.dir/Assign06P1A.cpp.s
+.PHONY : Assign06P1A.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Assignment6"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Assign06P1A.o"
+	@echo "... Assign06P1A.i"
+	@echo "... Assign06P1A.s"
 .PHONY : help
 
 

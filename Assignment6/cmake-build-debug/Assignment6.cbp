@@ -11,30 +11,30 @@
 				<Option working_dir="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Assignment6">
@@ -52,10 +52,10 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment6"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment6"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Assignment6/fast">
@@ -73,14 +73,20 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment6/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment6/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data\ Structures/Assignments/Assignment6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/main.cpp">
+		<Unit filename="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/Assign06P1A.cpp">
+			<Option target="Assignment6"/>
+		</Unit>
+		<Unit filename="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/Makefile">
+			<Option target="Assignment6"/>
+		</Unit>
+		<Unit filename="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/a6p1Atest.out">
 			<Option target="Assignment6"/>
 		</Unit>
 		<Unit filename="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/CMakeLists.txt">

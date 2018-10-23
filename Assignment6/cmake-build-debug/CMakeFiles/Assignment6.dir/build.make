@@ -57,27 +57,27 @@ include CMakeFiles/Assignment6.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment6.dir/flags.make
 
-CMakeFiles/Assignment6.dir/main.cpp.o: CMakeFiles/Assignment6.dir/flags.make
-CMakeFiles/Assignment6.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment6.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment6.dir/main.cpp.o -c "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/main.cpp"
+CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o: CMakeFiles/Assignment6.dir/flags.make
+CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o: ../Assign06P1A.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o -c "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/Assign06P1A.cpp"
 
-CMakeFiles/Assignment6.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment6.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/main.cpp" > CMakeFiles/Assignment6.dir/main.cpp.i
+CMakeFiles/Assignment6.dir/Assign06P1A.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment6.dir/Assign06P1A.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/Assign06P1A.cpp" > CMakeFiles/Assignment6.dir/Assign06P1A.cpp.i
 
-CMakeFiles/Assignment6.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment6.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/main.cpp" -o CMakeFiles/Assignment6.dir/main.cpp.s
+CMakeFiles/Assignment6.dir/Assign06P1A.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment6.dir/Assign06P1A.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/Assign06P1A.cpp" -o CMakeFiles/Assignment6.dir/Assign06P1A.cpp.s
 
 # Object files for target Assignment6
 Assignment6_OBJECTS = \
-"CMakeFiles/Assignment6.dir/main.cpp.o"
+"CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o"
 
 # External object files for target Assignment6
 Assignment6_EXTERNAL_OBJECTS =
 
-Assignment6: CMakeFiles/Assignment6.dir/main.cpp.o
+Assignment6: CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o
 Assignment6: CMakeFiles/Assignment6.dir/build.make
 Assignment6: CMakeFiles/Assignment6.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Assignment6"
