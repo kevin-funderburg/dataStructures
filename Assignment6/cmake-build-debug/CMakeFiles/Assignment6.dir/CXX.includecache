@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kevinfunderburg/Dropbox/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/Assign06P1A.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+
