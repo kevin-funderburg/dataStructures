@@ -247,17 +247,17 @@ void ListClear(Node*& headPtr, int noMsg)
 //void SortedMergeRecur(Node*& headX, Node*& headY, Node*& headZ)
 //{
 //    /*
-//     * X-list and Y-list are each sorted (in non-decreasing order) in itself and TODO each may be empty.
+//     * X-list and Y-list are each sorted (in non-decreasing order) in itself and -*each may be empty*-
 //     *
 //     * Z-list is initially empty (i.e., zHead initially contains the null pointer).
 //     *
 //     * Develop and test a recursive C++ function called SortedMergeRecur that
 //     *
 //     * combines the nodes in X-list and Y-list into Z-list such that, after calling the function,
-//     * TODO  Z-list is a sorted list (in non-decreasing order) containing all the nodes
+//     * -*Z-list is a sorted list (in non-decreasing order) containing all the nodes*-
 //     * initially contained in X-list and Y-list  –
 //     *
-//     * TODO X-list and Y-list should both be empty after the call.
+//     * -*X-list and Y-list should both be empty after the call*-.
 //     */
 ////    cout << "X:\t\t"; ShowAll(cout, headX);
 ////    cout << "y:\t\t"; ShowAll(cout, headY);
@@ -315,9 +315,10 @@ void SortedMergeRecur(Node*& headX, Node*& headY, Node*& headZ)
     /* Base cases */
     if (headX == 0)
         headZ = headY;
+//        return;
     else if (headY==0)
         headZ = headX;
-
+//        return;
 
         /* Pick either a or b, and recur */
     else if (headX->data <= headY->data)
@@ -327,7 +328,8 @@ void SortedMergeRecur(Node*& headX, Node*& headY, Node*& headZ)
 /*
  *
  * NOTE: i am copying here when i should be appending
- * TODO FIgure out how to add one element to the end of the list
+ * TODO Figure out how to add one element to the end of the list
+ * TODO check out InsertAsTail
  *
  */
         Node* temp = headX;
@@ -344,7 +346,7 @@ void SortedMergeRecur(Node*& headX, Node*& headY, Node*& headZ)
         headY = headY->link;
         SortedMergeRecur(headX, headY, headZ->link);
     }
-//    }
+
 
 
 

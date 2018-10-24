@@ -42,6 +42,7 @@
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.Makefile.swp" beforeDir="false" />
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llcpImp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/llcpImp.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,13 +73,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1463" />
+          <entry key="cpp" value="1598" />
           <entry key="h" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1511" />
+          <entry key="ObjectiveC" value="1646" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -107,12 +108,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="332" column="21" lean-forward="true" selection-start-line="332" selection-start-column="21" selection-end-line="332" selection-end-column="21" />
+            <state relative-caret-position="-940">
+              <caret line="249" column="104" selection-start-line="249" selection-start-column="104" selection-end-line="249" selection-end-column="104" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#1523#2767#0" expanded="true" />
-                <element signature="e#5252#5285#0" expanded="true" />
                 <element signature="e#7349#7363#0" expanded="true" />
                 <element signature="e#7783#7813#0" expanded="true" />
               </folding>
@@ -234,19 +234,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540350157762</updated>
-      <workItem from="1540350159178" duration="8818000" />
+      <workItem from="1540350159178" duration="10931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8818000" />
+    <option name="totallyTimeSpent" value="10931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4612245" visible="true" weight="0.2918193" />
-      <window_info id="Structure" order="1" sideWeight="0.5387755" side_tool="true" visible="true" weight="0.2918193" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46055436" visible="true" weight="0.2918193" />
+      <window_info id="Structure" order="1" sideWeight="0.53944564" side_tool="true" weight="0.2918193" />
       <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,27 +277,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/llcpImp.cpp</url>
-          <line>306</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/llcpImp.cpp</url>
-          <line>355</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/llcpImp.cpp</url>
-          <line>312</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -321,12 +300,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="332" column="21" lean-forward="true" selection-start-line="332" selection-start-column="21" selection-end-line="332" selection-end-column="21" />
+        <state relative-caret-position="-940">
+          <caret line="249" column="104" selection-start-line="249" selection-start-column="104" selection-end-line="249" selection-end-column="104" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#1523#2767#0" expanded="true" />
-            <element signature="e#5252#5285#0" expanded="true" />
             <element signature="e#7349#7363#0" expanded="true" />
             <element signature="e#7783#7813#0" expanded="true" />
           </folding>
