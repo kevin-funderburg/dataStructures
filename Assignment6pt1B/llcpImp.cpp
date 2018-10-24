@@ -244,127 +244,30 @@ void ListClear(Node*& headPtr, int noMsg)
 }
 
 // definition of SortedMergeRecur
-//void SortedMergeRecur(Node*& headX, Node*& headY, Node*& headZ)
-//{
-//    /*
-//     * X-list and Y-list are each sorted (in non-decreasing order) in itself and -*each may be empty*-
-//     *
-//     * Z-list is initially empty (i.e., zHead initially contains the null pointer).
-//     *
-//     * Develop and test a recursive C++ function called SortedMergeRecur that
-//     *
-//     * combines the nodes in X-list and Y-list into Z-list such that, after calling the function,
-//     * -*Z-list is a sorted list (in non-decreasing order) containing all the nodes*-
-//     * initially contained in X-list and Y-list  –
-//     *
-//     * -*X-list and Y-list should both be empty after the call*-.
-//     */
-////    cout << "X:\t\t"; ShowAll(cout, headX);
-////    cout << "y:\t\t"; ShowAll(cout, headY);
-////    cout << "Z:\t\t"; ShowAll(cout, headZ);
-//
-//
-//    if (headX == 0)
-//    {
-//        headZ = headY;
-//    }
-//    else if (headY == 0)
-//    {
-//        headZ = headX;
-//    }
-//
-//    Node* precursor = headX;
-//    Node* cursor = headX->link;
-//
-//    while (cursor != 0)
-//    {
-//        precursor = cursor;
-//        cursor = cursor->link;
-//    }
-//    precursor->link = 0;
-//
-//    SortedMergeRecur(headX, headY, headZ);
-//
-//    else if (headX->data <= headY->data)
-//    {
-//        headZ = headX;
-//    }
-//    else
-//    {
-//        headZ = headY;
-//    }
-//
-//}
-
 void SortedMergeRecur(Node*& headX, Node*& headY, Node*& headZ)
 {
-    struct Node* result = 0;
+    if (headX == 0 && headY == 0)
+        return;
 
-    cout << "X:\t\t"; ShowAll(cout, headX);
-    cout << "y:\t\t"; ShowAll(cout, headY);
-    cout << "Z:\t\t"; ShowAll(cout, headZ);
-
-//    if (headX == 0 && headY == 0) {
-//        headZ = 0;
-//        return;
-//    }
-//    else
-//    {
-
-
-    /* Base cases */
     if (headX == 0)
-        headZ = headY;
-//        return;
-    else if (headY==0)
-        headZ = headX;
-//        return;
-
-        /* Pick either a or b, and recur */
-    else if (headX->data <= headY->data)
     {
-        cout << "headX->data: " << headX->data << "\theadY->data: " << headY->data << "\n";
-        cout << "copying headX to headZ\n";
-/*
- *
- * NOTE: i am copying here when i should be appending
- * TODO Figure out how to add one element to the end of the list
- * TODO check out InsertAsTail
- *
- */
-        Node* temp = headX;
+        headZ = headY;
+        headY = headY->link;
+    }
+    else if (headY==0)
+    {
         headZ = headX;
         headX = headX->link;
-        SortedMergeRecur(headX, headY, headZ->link);
-
+    }
+    else if (headX->data <= headY->data)
+    {
+        headZ = headX;
+        headX = headX->link;
     }
     else
     {
-        cout << "headX->data: " << headX->data << "\theadY->data: " << headY->data << "\n";
-        cout << "copying headY to headZ\n";
         headZ = headY;
         headY = headY->link;
-        SortedMergeRecur(headX, headY, headZ->link);
     }
-
-
-
-
-
-
-
+    SortedMergeRecur(headX, headY, headZ->link);
 }
-
-//Node *newNodePtr = new Node;
-//newNodePtr->data = value;
-//newNodePtr->link = 0;
-//if (headPtr == 0)
-//headPtr = newNodePtr;
-//else
-//{
-//Node *cursor = headPtr;
-//
-//while (cursor->link != 0) // not at last node
-//cursor = cursor->link;
-//cursor->link = newNodePtr;
-//}

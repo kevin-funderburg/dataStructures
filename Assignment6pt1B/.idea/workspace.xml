@@ -42,7 +42,23 @@
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.Makefile.swp" beforeDir="false" />
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assign06P1B.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1B.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a6p1B" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a6p1Btest.out" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1Btest.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment6pt1B" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment6pt1B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/Assign06P1B.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/Assign06P1B.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/llcpImp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/llcpImp.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llcpImp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/llcpImp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llcpImp.o" beforeDir="false" afterPath="$PROJECT_DIR$/llcpImp.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +72,12 @@
     <session id="-1496134991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,13 +93,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1598" />
+          <entry key="cpp" value="2007" />
           <entry key="h" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1646" />
+          <entry key="ObjectiveC" value="2055" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -87,7 +107,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -96,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assign06P1B.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2640">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="-571">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -108,14 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-940">
-              <caret line="249" column="104" selection-start-line="249" selection-start-column="104" selection-end-line="249" selection-end-column="104" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#1523#2767#0" expanded="true" />
-                <element signature="e#7349#7363#0" expanded="true" />
-                <element signature="e#7783#7813#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="970">
+              <caret line="256" column="22" lean-forward="true" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -173,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,13 +198,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myShowDebugConsoleByDefault" value="true" />
@@ -234,41 +249,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540350157762</updated>
-      <workItem from="1540350159178" duration="10931000" />
+      <workItem from="1540350159178" duration="10970000" />
+      <workItem from="1540394278117" duration="111000" />
+      <workItem from="1540394399751" duration="5517000" />
+      <workItem from="1540400696359" duration="12000" />
+      <workItem from="1540400726280" duration="191000" />
+      <workItem from="1540400931204" duration="25000" />
+      <workItem from="1540400968880" duration="60000" />
+      <workItem from="1540401054481" duration="29000" />
+      <workItem from="1540401094799" duration="3319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10931000" />
+    <option name="totallyTimeSpent" value="20234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.46055436" visible="true" weight="0.2918193" />
-      <window_info id="Structure" order="1" sideWeight="0.53944564" side_tool="true" weight="0.2918193" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45474452" visible="true" weight="0.31532964" />
+      <window_info id="Structure" order="1" sideWeight="0.5452555" side_tool="true" visible="true" weight="0.31532964" />
       <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5214286" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.5102041" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5211679" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.50948906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.327551" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.3270073" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.327551" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.3270073" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32900944" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="LuaJ" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Remote Host" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +299,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/llcpImp.cpp</url>
+          <line>251</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -290,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assign06P1B.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2640">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="-571">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -300,14 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="249" column="104" selection-start-line="249" selection-start-column="104" selection-end-line="249" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#1523#2767#0" expanded="true" />
-            <element signature="e#7349#7363#0" expanded="true" />
-            <element signature="e#7783#7813#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="970">
+          <caret line="256" column="22" lean-forward="true" selection-start-line="256" selection-start-column="22" selection-end-line="256" selection-end-column="22" />
         </state>
       </provider>
     </entry>
