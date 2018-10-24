@@ -15,7 +15,7 @@ int FindListLength(Node* headPtr)
 
    return length;
 }
-//testing
+
 bool IsSortedUp(Node* headPtr)
 {
    if (headPtr == 0 || headPtr->link == 0) // empty or 1-node
