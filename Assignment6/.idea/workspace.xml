@@ -34,19 +34,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fc423db-926b-4b20-a450-43cff19f7120" name="Default Changelist" comment="">
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.Makefile.swp" beforeDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5p1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5p1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5p1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5p1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5p2/.Makefile.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5p2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assign06P1A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assign06P1A.o" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a6p1A" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a6p1Atest.out" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1Atest.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment6pt1B/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment6pt1B/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,12 +56,13 @@
     <session id="-2058952640">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -119,23 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2688">
-              <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
-              <folding>
-                <element signature="e#76#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a6p1Atest.out">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -143,7 +128,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -158,6 +143,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -183,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +180,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +193,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myShowDebugConsoleByDefault" value="true" />
@@ -224,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.Assignment6">
     <configuration name="Assignment6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment6" TARGET_NAME="Assignment6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment6" RUN_TARGET_NAME="Assignment6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -261,20 +247,20 @@
       <workItem from="1540341207926" duration="1161000" />
       <workItem from="1540343339174" duration="590000" />
       <workItem from="1540343934479" duration="1057000" />
+      <workItem from="1540345152184" duration="1445000" />
+      <workItem from="1540394195980" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35299000" />
+    <option name="totallyTimeSpent" value="36795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6213904" side_tool="true" visible="true" weight="0.21367522" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6213904" side_tool="true" visible="true" weight="0.21855922" />
       <window_info id="Structure" order="1" sideWeight="0.44278076" side_tool="true" weight="0.21367522" />
       <window_info id="Favorites" order="2" sideWeight="0.55828875" side_tool="true" weight="0.21367522" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48128343" />
@@ -283,12 +269,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.11550802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" visible="true" weight="0.11550802" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.3272727" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32834226" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="14" weight="0.32941177" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -305,6 +292,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="165" column="12" lean-forward="true" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -312,27 +309,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/a6p1Atest.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a6p1Atest.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
-          <folding>
-            <element signature="e#76#95#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
