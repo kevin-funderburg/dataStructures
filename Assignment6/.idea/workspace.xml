@@ -43,7 +43,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assign06P1A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,12 +57,12 @@
     <session id="-2058952640">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,12 +79,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2260" />
+          <entry key="cpp" value="2320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2260" />
+          <entry key="ObjectiveC" value="2320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -114,11 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="241" column="21" lean-forward="true" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
-              <folding>
-                <element signature="e#4040#4068#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="661">
+              <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -241,29 +238,31 @@
       <workItem from="1540299252699" duration="2629000" />
       <workItem from="1540312817088" duration="3008000" />
       <workItem from="1540333858588" duration="7162000" />
-      <workItem from="1540341207926" duration="1128000" />
+      <workItem from="1540341207926" duration="1161000" />
+      <workItem from="1540343339174" duration="590000" />
+      <workItem from="1540343934479" duration="124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33619000" />
+    <option name="totallyTimeSpent" value="34366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4515464" visible="true" weight="0.20879121" />
-      <window_info id="Structure" order="1" sideWeight="0.5484536" side_tool="true" visible="true" weight="0.20879121" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45026737" visible="true" weight="0.21367522" />
+      <window_info id="Structure" order="1" sideWeight="0.5497326" side_tool="true" visible="true" weight="0.21367522" />
       <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48128343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48128343" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.39679146" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.23367347" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.23315509" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.3272727" />
@@ -317,11 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="241" column="21" lean-forward="true" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
-          <folding>
-            <element signature="e#4040#4068#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="661">
+          <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
         </state>
       </provider>
     </entry>

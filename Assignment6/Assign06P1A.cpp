@@ -68,7 +68,7 @@ int main()
               << " == " << limnO2B << " <--limn_ought2b" << endl;
       }
       else // uncomment next line to show array involved in every case
-          DebugShowCase(testCasesDone, testCasesToDo, intArr, used);
+//          DebugShowCase(testCasesDone, testCasesToDo, intArr, used);
       if (testCasesDone % 30000 == 0)
       {
          cout << "================================" << endl;
@@ -226,22 +226,25 @@ int LowIndexMinNeg(const int a[], int n) {
         else
             return -999;
     }
-    else {
+    else
+    {
         int minIndexTheRest = LowIndexMinNeg(a + 1, n - 1);
 
-
-        cout << "arr[0]:\t" << a[0] << ":\t\tarr[minIndexTheRest + 1]:\t" << a[minIndexTheRest + 1]
-             << "\t\tminIndexTheRest:\t" << minIndexTheRest << "\t\t\tn: " << n << endl;
+//        cout << "arr[0]:\t" << a[0] << ":\t\tarr[minIndexTheRest + 1]:\t" << a[minIndexTheRest + 1]
+//             << "\t\tminIndexTheRest:\t" << minIndexTheRest << "\t\t\tn: " << n << endl;
 
         if (minIndexTheRest < 0)
         {
-            return 0;
+            if (a[0] < 0)
+                return 0;
+            else
+                return -999;
         }
         if (a[0] < 0 && a[0] <= a[minIndexTheRest + 1])
         {
             return 0;
         }
-        else if (a[0] > 0 && a[minIndexTheRest + 1] > 0)
+        else if (a[0] > 0 && a[minIndexTheRest + 1] >= 0)
         {
             return -999;
         }
