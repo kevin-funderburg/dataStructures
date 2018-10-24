@@ -5,7 +5,7 @@
 using namespace std;
 
 // prototype for LowIndexMinNeg (to be filled in - part of exercise)
-int LowIndexMinNeg(const int arr[], int n);
+int LowIndexMinNeg(const int a[], int n);
 
 
 void SeedRand();
@@ -130,99 +130,125 @@ void DebugShowCase(int whichCase, int totalCasesToDo,
    cout << "array: ";
    ShowArray(caseValues, caseSize);
 }
-//  -2  -1  8  0  4  -6  2
-// definition for LowIndexMinNeg (to be filled in - part of exercise)
-int LowIndexMinNeg(const int arr[], int n) {
-    if (n < 1) return -999;
-
-    if (n == 1)
-    {
-//        cout << "n == 1\tarr[0]: "  << arr[0] << "\n";
-
-        if (arr[0] < 0)
-            return -999;
-        else
-            return -999 - (n + 1);
-    }
-
-
-
-    int min1 = LowIndexMinNeg(arr + 1, n - 1);
-//    int min1 = LowIndexMinNeg(arr + 1, n - 1) + 1;
-    int min2 = LowIndexMinNeg(arr - 1, n - 1);
-
-
-    if (arr[0] < 0 && arr[0] <= arr[min1])
-    {
-        return 0;
-    }
-    else if (arr[0] < 0 && arr[0] < arr[min2])
-    {
-        return 0;
-    }
-    else if (arr[min2] < 0)
-    {
-        if(arr[min1] == arr[min2])
-        {
-            if(min1 < min2)
-                return min1;
-            else
-                return min2;
-        }
-        return min2;
-    }
-    else if(arr[min1] < 0)
-    {
-        if(arr[min1] == arr[min2])
-        {
-            if(min1 < min2)
-                return min1;
-            else
-                return min2;
-        }
-        return min1;
-    }
-    else
-    {
-        return -999;
-    }
-
-
-}
-
-//int LowIndexMinNeg(const int arr[], int n)
+////  -2  -1  8  0  4  -6  2
+//// definition for LowIndexMinNeg (to be filled in - part of exercise)
+//int LowIndexMinNeg(const int a[] , int n)
 //{
-////    for (int i = 0; i < n; ++i) {
-////        cout << arr[i] << " ";
-////    }
+//    ShowArray(a,n);
+//    if(n < 1)
+//        return -999;
+//    if(n == 1)
+//    {
+//        if(a[0] < 0)
+//            return 0;
+//        else
+//            return -999 - (n + 1);
+//    }
+//    int min = LowIndexMinNeg(a + 1, n - 1)+1;
+//    int min2 = LowIndexMinNeg(a - 1, n - 1);
+//
+////    cout << "min1 = " << min1 << endl;
+////    cout << "min2 = " << min2 << endl;
+//
+//    cout << "arr[0] < 0 && arr[0]:\t" << a[0] << " <= " << "arr[min]: " << a[min] << endl;
+//    if(a[0] < a[min] && a[0] < 0)
+//    {
+//        return 0;
+//    }
+//    else if(a[0] < a[min2] && a[0] < 0)
+//    {
+//        return 0;
+//    }
+//    else if(a[min2]<0)
+//    {
+//        if(a[min] == a[min2])
+//        {
+//            if(min < min2)
+//                return min;
+//            else
+//                return min2;
+//        }
+//        return min2;
+//    }
+//    else if(a[min] < 0)
+//    {
+//        if(a[min] == a[min2])
+//        {
+//            if(min < min2)
+//                return min;
+//            else
+//                return min2;
+//        }
+//        return min;
+//    }
+//    else
+//    {
+//        return -999;
+//    }
+//}
+
+//int LowIndexMinNeg2(const int a[], int n) {
+//    ShowArray(a, n);
 //    if (n == 0)
 //        return -999;
 //
-//    if (n == 1) {
-//        if(arr[0] >= 0)
-//            return -999;
-//        else
-//            return 0;
+////    if (n == 1)
+////    {
+////        if (a[0] < 0)
+////            return 0;
+////        else
+////            return -999;
+////    }
+//    if (n == 1) return 0;
+//
+//    int minIndexTheRest = LowIndexMinNeg(a + 1, n - 1);
+//
+//
+//    cout << "arr[0]: " << a[0] << " : arr[minIndexTheRest + 1]: " << a[minIndexTheRest + 1] << endl;
+//
+//    if (a[0] < 0 && a[0] <= a[minIndexTheRest + 1]) {
+//        return 0;
+//    } else {
+//        return 1 + minIndexTheRest;
 //    }
 //
-////    if (n == 1)
-////        return 0;
-//
-////    if (arr[n] >= 0)
-////        int minIndexTheRest = LowIndexMinNeg(arr + 1, n - 1);
-//
-//    int minIndexTheRest = LowIndexMinNeg(arr + 1, n - 1);
-//
-////    if (arr[0] <= arr[minIndexTheRest + 1])
-////        return 0;
-////    else
-////        return 1 + minIndexTheRest;
-//
-////    cout << "arr[0]: " << arr[0] << " : arr[minIndexTheRest + 1]: " << arr[minIndexTheRest + 1] << endl;
-//
-//    if (arr[0] <= arr[minIndexTheRest + 1])
-//        return 0;
-//    else
-//        return 1 + minIndexTheRest;
-//
 //}
+int LowIndexMinNeg(const int a[], int n) {
+//    ShowArray(a, n);
+    if (n == 0)
+    {
+        return -999;
+    }
+    else if (n == 1)
+    {
+        if (a[0] < 0)
+            return 0;
+        else
+            return -999;
+    }
+    else {
+        int minIndexTheRest = LowIndexMinNeg(a + 1, n - 1);
+
+
+        cout << "arr[0]:\t" << a[0] << ":\t\tarr[minIndexTheRest + 1]:\t" << a[minIndexTheRest + 1]
+             << "\t\tminIndexTheRest:\t" << minIndexTheRest << "\t\t\tn: " << n << endl;
+
+        if (minIndexTheRest < 0)
+        {
+            return 0;
+        }
+        if (a[0] < 0 && a[0] <= a[minIndexTheRest + 1])
+        {
+            return 0;
+        }
+        else if (a[0] > 0 && a[minIndexTheRest + 1] > 0)
+        {
+            return -999;
+        }
+        else
+        {
+            return 1 + minIndexTheRest;
+        }
+    }
+
+}
