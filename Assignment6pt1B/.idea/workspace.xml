@@ -34,18 +34,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e516512-6826-40aa-b105-eb696c30b04d" name="Default Changelist" comment="">
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.Makefile.swp" beforeDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment6pt1B" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment6pt1B" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/llcpImp.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6pt1B.dir/llcpImp.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llcpInt.h" beforeDir="false" afterPath="$PROJECT_DIR$/llcpInt.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +62,7 @@
     <session id="-1496134991">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.5" value="2" />
@@ -85,22 +74,26 @@
         <counts>
           <entry key="cpp" value="2" />
           <entry key="h" value="1" />
+          <entry key="out" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ObjectiveC" value="3" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="2007" />
           <entry key="h" value="66" />
+          <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="2073" />
+          <entry key="PLAIN_TEXT" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -117,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assign06P1B.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-571">
-              <caret line="198" selection-start-line="198" selection-end-line="198" />
+            <state relative-caret-position="-6">
+              <caret line="219" column="1" lean-forward="true" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -126,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="269" column="28" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="28" />
+            <state relative-caret-position="464">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="e#1523#2767#0" expanded="true" />
               </folding>
@@ -138,7 +131,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a6p1Btest.out">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/llcpInt.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
@@ -168,8 +166,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -266,17 +264,25 @@
       <workItem from="1540400931204" duration="25000" />
       <workItem from="1540400968880" duration="60000" />
       <workItem from="1540401054481" duration="29000" />
-      <workItem from="1540401094799" duration="3996000" />
+      <workItem from="1540401094799" duration="5035000" />
     </task>
+    <task id="LOCAL-00001" summary="edit prototype argument names">
+      <created>1540405583839</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540405583839</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20911000" />
+    <option name="totallyTimeSpent" value="21950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45336226" visible="true" weight="0.225973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45336226" visible="true" weight="0.225973" />
       <window_info id="Structure" order="1" sideWeight="0.5466378" side_tool="true" visible="true" weight="0.225973" />
       <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
       <window_info anchor="bottom" id="File Transfer" weight="0.329927" />
@@ -291,7 +297,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.3270073" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" visible="true" weight="0.3270073" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" visible="true" weight="0.3270073" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32900944" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
@@ -308,6 +314,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit prototype argument names" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit prototype argument names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -326,20 +336,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assign06P1B.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-571">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        <state relative-caret-position="-6">
+          <caret line="219" column="1" lean-forward="true" selection-start-line="219" selection-start-column="1" selection-end-line="219" selection-end-column="1" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="269" column="28" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="28" />
-          <folding>
-            <element signature="e#1523#2767#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -348,6 +348,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a6p1Btest.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/llcpImp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#1523#2767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

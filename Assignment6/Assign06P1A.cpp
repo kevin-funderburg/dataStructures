@@ -168,5 +168,4 @@ int LowIndexMinNeg(const int a[], int n) {
             return 1 + minIndexTheRest;
         }
     }
-
 }

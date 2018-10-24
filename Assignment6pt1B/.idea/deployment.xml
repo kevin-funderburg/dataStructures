@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" uploadOnCheckin="e459ae1d-f070-4776-9c8e-dec831ead797">
+    <serverData>
+      <paths name="TSU Linux">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/dataStructures/Assignments/Assignment6pt1B" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="TSU Linux" />
+  </component>
+</project>
