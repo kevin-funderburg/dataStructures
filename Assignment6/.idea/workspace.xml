@@ -42,6 +42,9 @@
       <change beforePath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" beforeDir="false" afterPath="$DROPBOX$/Documents/School/2018/Fall/Data Structures/Assignments/Assignment5p2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assign06P1A.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assign06P1A.o" beforeDir="false" afterPath="$PROJECT_DIR$/Assign06P1A.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a6p1A" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1A" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a6p1Atest.out" beforeDir="false" afterPath="$PROJECT_DIR$/a6p1Atest.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assignment6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assignment6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Assignment6.dir/Assign06P1A.cpp.o" afterDir="false" />
     </list>
@@ -68,6 +71,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="1" />
+          <entry key="out" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -75,21 +79,25 @@
         <counts>
           <entry key="CMakeCache.txt" value="1" />
           <entry key="ObjectiveC" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2320" />
+          <entry key="cpp" value="2325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2320" />
+          <entry key="ObjectiveC" value="2325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Assignment6" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -114,8 +122,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
+            <state relative-caret-position="2688">
+              <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+              <folding>
+                <element signature="e#76#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a6p1Atest.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -171,11 +191,6 @@
               <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
               <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Assignment6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment6" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -184,6 +199,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,13 +224,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Assignment6">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Assignment6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment6" TARGET_NAME="Assignment6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment6" RUN_TARGET_NAME="Assignment6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment6" RUN_TARGET_NAME="Assignment6" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -240,20 +260,21 @@
       <workItem from="1540333858588" duration="7162000" />
       <workItem from="1540341207926" duration="1161000" />
       <workItem from="1540343339174" duration="590000" />
-      <workItem from="1540343934479" duration="124000" />
+      <workItem from="1540343934479" duration="1057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34366000" />
+    <option name="totallyTimeSpent" value="35299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45026737" visible="true" weight="0.21367522" />
-      <window_info id="Structure" order="1" sideWeight="0.5497326" side_tool="true" visible="true" weight="0.21367522" />
-      <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6213904" side_tool="true" visible="true" weight="0.21367522" />
+      <window_info id="Structure" order="1" sideWeight="0.44278076" side_tool="true" weight="0.21367522" />
+      <window_info id="Favorites" order="2" sideWeight="0.55828875" side_tool="true" weight="0.21367522" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48128343" />
@@ -262,11 +283,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.23315509" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.11550802" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.3272727" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.32857144" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32834226" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -274,7 +295,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="LuaJ" order="4" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Remote Host" order="6" />
+      <window_info anchor="right" id="Remote Host" order="6" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,22 +303,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assign06P1A.cpp</url>
-          <line>194</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assign06P1A.cpp</url>
-          <line>224</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -314,10 +319,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/a6p1Atest.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assign06P1A.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
+        <state relative-caret-position="2688">
+          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+          <folding>
+            <element signature="e#76#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
