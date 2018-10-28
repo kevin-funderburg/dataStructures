@@ -33,52 +33,61 @@ int bst_size(btNode* bst_root)
 
 
 // write definition for bst_insert here
-void bst_insert(btNode *bst_root, int insInt)
+bool bst_insert(btNode *bst_root, int insInt)
 {
-    if (bst_root == 0) return;
-
-    if (bst_root->left == 0 && bst_root->right == 0)
+    if (bst_root == 0)
     {
-        btNode *newRoot = new btNode;
-        newRoot->data = insInt;
-        bst_root = newRoot;
-        return;
+       bst_root = new btNode;
+       bst_root->data = insInt;
+       bst_root->left = bst_root->right = 0;
+//        return;
     }
-
-    bool done = false;
-    btNode *cursor = bst_root;
-    while (!done)
+//    else
+//    {
+//    if (bst_root->left == 0 && bst_root->right == 0)
+//    {
+//        btNode *newRoot = new btNode;
+//        newRoot->data = insInt;
+//        bst_root = newRoot;
+//        return;
+//    }
+    if (bst_root->left != 0 || bst_root->right != 0)
     {
-        if (cursor->data < insInt)
+        bool done = false;
+        btNode *cursor = bst_root;
+        while (!done)
         {
-            if (cursor->left == 0)
+            if (cursor->data == insInt)
+                return false;
+            if (cursor->data < insInt)
             {
-                btNode *newNode = new btNode;
-                newNode->data = insInt;
-                cursor->left = newNode;
-                done = true;
-            } else {
-                cursor = cursor->left;
+                if (cursor->left == 0)
+                {
+                    btNode *newNode = new btNode;
+                    newNode->data = insInt;
+                    cursor->left = newNode;
+                    done = true;
+                } else {
+                    cursor = cursor->left;
+                }
+            }
+            else if (cursor->data > insInt)
+            {
+                if (cursor->right == 0)
+                {
+                    btNode *newNode = new btNode;
+                    newNode->data = insInt;
+                    cursor->right = newNode;
+                    done = true;
+                } else {
+                    cursor = cursor->right;
+                }
             }
         }
-        else if (cursor->data > insInt)
-        {
-            if (cursor->right == 0)
-            {
-                btNode *newNode = new btNode;
-                newNode->data = insInt;
-                cursor->right = newNode;
-                done = true;
-            } else {
-                cursor = cursor->right;
-            }
-        }
-        else
-        {
-            cursor->data = insInt;
-        }
     }
-    return;
+
+    return false;
+//    }
 }
 
 // write definition for bst_remove here
