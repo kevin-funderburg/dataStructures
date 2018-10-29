@@ -51,9 +51,9 @@ bool bst_remove(btNode*& bst_root, int remInt);
 // pre:  bst_root is root pointer of a non-empty binary search tree
 // post: The largest item in the binary search tree has been removed, and
 //       bst_root now points to the root of the new (smaller) binary search
-//       tree. The reference parameter, removed, has been set to a copy of
+//       tree. -*The reference parameter, removed, has been set to a copy of*-
 //       the removed item.
 // write prototype for bst_remove_max here
-void bst_remove_max(btNode*& bst_root, int target);
+void bst_remove_max(btNode*& bst_root, int removed);
 
 #endif

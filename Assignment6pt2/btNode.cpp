@@ -42,14 +42,13 @@ bool bst_insert(btNode*& bst_root, int insInt)
        bst_root->left = bst_root->right = 0;
         return true;
     }
-
     bool done = false;
     btNode *cursor = bst_root;
     while (!done)
     {
         if (cursor->data == insInt)
             return false;
-        if (cursor->data < insInt)
+        if (insInt < cursor->data)
         {
             if (cursor->left == 0)
             {
@@ -61,7 +60,7 @@ bool bst_insert(btNode*& bst_root, int insInt)
                 cursor = cursor->left;
             }
         }
-        else if (cursor->data > insInt)
+        else if (insInt >cursor->data)
         {
             if (cursor->right == 0)
             {
@@ -74,9 +73,7 @@ bool bst_insert(btNode*& bst_root, int insInt)
             }
         }
     }
-
     return true;
-//    }
 }
 
 // write definition for bst_remove here
@@ -85,41 +82,54 @@ bool bst_remove(btNode*& bst_root, int remInt)
     if (bst_root == 0) return true;
 
     if (remInt < bst_root->data)
-    {
         bst_remove(bst_root->left, remInt);
-    }
+
     else if (remInt > bst_root->data)
-    {
         bst_remove(bst_root->right, remInt);
-    }
+
     else if (remInt == bst_root->data)
     {
-        if (bst_root->left == 0)
-        {
+       if (bst_root->left == 0 && bst_root->right == 0) // root has no children
+       {
+           btNode* oldroot_ptr = bst_root;
+           bst_root = 0;
+           delete oldroot_ptr;
+       }
+       else if (bst_root->left != 0 && bst_root->right == 0)    // root has 1 (left) child
+       {
+            btNode* oldroot_ptr = bst_root;
+            bst_root = bst_root->left;
+            delete oldroot_ptr;
+       }
+       else if (bst_root->left == 0 && bst_root->right != 0)    // root has 1 (right) child
+       {
             btNode* oldroot_ptr = bst_root;
             bst_root = bst_root->right;
             delete oldroot_ptr;
-        }
-        else
-            bst_remove_max(bst_root->left, bst_root->data);
+       }
+       else if (bst_root->left != 0 && bst_root->right != 0)    // root has 2 children
+       {
+           bst_remove_max(bst_root->left, bst_root->data);
+       }
+        return true;
     }
-
-
     return false;
 }
 
 // write definition for bst_remove_max here
-void bst_remove_max(btNode*& bst_root, int target)
+void bst_remove_max(btNode*& bst_root, int removed)
 {
+    if (bst_root == 0) return;
     if (bst_root->right == 0)
+    // copy root nodes data into the data field ref parameter
+    // delete root node and make left child (may be 0) the new root
     {
-        int removed = bst_root->data;
         btNode* oldroot_ptr = bst_root;
         bst_root = bst_root->left;
         delete oldroot_ptr;
     }
     else
-        bst_remove_max(bst_root->right, target);
+        bst_remove_max(bst_root->right, bst_root->data);
 
 }
 
