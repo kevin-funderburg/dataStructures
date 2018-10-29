@@ -37,7 +37,7 @@ int bst_size(btNode* bst_root);
 //       If a node with data equals insInt is found, the node's data field
 //       has been overwritten with insInt; no new node has been created.
 // write prototype for bst_insert here
-bool bst_insert(btNode*& bst_root, int insInt);
+void bst_insert(btNode*& bst_root, int insInt);
 
 // pre:  bst_root is root pointer of a binary search tree (may be 0 for
 //       empty tree)
@@ -54,6 +54,6 @@ bool bst_remove(btNode*& bst_root, int remInt);
 //       tree. -*The reference parameter, removed, has been set to a copy of*-
 //       the removed item.
 // write prototype for bst_remove_max here
-void bst_remove_max(btNode*& bst_root, int removed);
+void bst_remove_max(btNode*& bst_root, int& removed);
 
 #endif
