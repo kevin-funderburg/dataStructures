@@ -132,10 +132,10 @@ void bst_remove_max(btNode*& bst_lst_root, int& removed)    //TODO: this functio
     // delete root node and make left child (may be 0) the new root
     {
         removed = bst_lst_root->data;
-        btNode* oldroot_ptr = bst_lst_root;
-        bst_lst_root = bst_lst_root->left;
-        delete oldroot_ptr;
-/*
+//        btNode* oldroot_ptr = bst_lst_root;
+//        bst_lst_root = bst_lst_root->left;
+//        delete oldroot_ptr;
+
         if (bst_lst_root->left == 0)
         {
             btNode* oldroot_ptr = bst_lst_root;
@@ -148,7 +148,7 @@ void bst_remove_max(btNode*& bst_lst_root, int& removed)    //TODO: this functio
             bst_lst_root = bst_lst_root->left;
             delete oldroot_ptr;
         }
-*/
+
     }
     else
         bst_remove_max(bst_lst_root->right, removed);
