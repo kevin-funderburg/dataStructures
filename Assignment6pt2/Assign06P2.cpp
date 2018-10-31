@@ -40,7 +40,7 @@ int main()
        *dataRemSorted = 0;
    btNode* bst_root = 0;
 
-   // SeedRand(); // disabled for reproducible result
+    SeedRand(); // disabled for reproducible result
 
    do
    {
