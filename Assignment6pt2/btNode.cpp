@@ -1,9 +1,6 @@
 #include <iostream>
 #include "btNode.h"
 
-#include <iostream>
-using namespace std;
-
 void dumpToArrayInOrder(btNode* bst_root, int* dumpArray)
 {
    if (bst_root == 0) return;
@@ -83,7 +80,7 @@ void bst_insert(btNode*& bst_root, int insInt)
 }
 
 // write definition for bst_remove here
-bool bst_remove(btNode*& bst_root, int remInt)
+bool bst_remove(btNode*& bst_root, const int remInt)
 {
     if (bst_root == 0) return false;
 
