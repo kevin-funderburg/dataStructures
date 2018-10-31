@@ -111,7 +111,6 @@ bool bst_remove(btNode*& bst_root, const int remInt)
         }
         return true;
     }
-    return false;
 }
 
 // write definition for bst_remove_max here
