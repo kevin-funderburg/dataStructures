@@ -1,5 +1,8 @@
+#include <iostream>
 #include "btNode.h"
-//using namespace std;
+
+#include <iostream>
+using namespace std;
 
 void dumpToArrayInOrder(btNode* bst_root, int* dumpArray)
 {
@@ -32,11 +35,9 @@ int bst_size(btNode* bst_root)
 }
 
 
-//TODO: decide if this is working correctly, getting address values in result
 // write definition for bst_insert here
 void bst_insert(btNode*& bst_root, int insInt)
 {
-//    std::cout << "inserting\n";
     if (bst_root == 0)
     {
         bst_root = new btNode;
@@ -79,7 +80,6 @@ void bst_insert(btNode*& bst_root, int insInt)
             }
         }
     }
-
 }
 
 // write definition for bst_remove here
@@ -88,72 +88,57 @@ bool bst_remove(btNode*& bst_root, int remInt)
     if (bst_root == 0) return false;
 
     if (remInt < bst_root->data)
-        bst_remove(bst_root->left, remInt);
+        return bst_remove(bst_root->left, remInt);
 
     else if (remInt > bst_root->data)
-        bst_remove(bst_root->right, remInt);
+        return bst_remove(bst_root->right, remInt);
 
     else if (remInt == bst_root->data)
     {
-       if (bst_root->left == 0 && bst_root->right == 0) // root has no children
-       {
-           btNode* oldroot_ptr = bst_root;
-           bst_root = 0;
-           delete oldroot_ptr;
-       }
-       else if (bst_root->left != 0 && bst_root->right == 0)    // root has 1 (left) child
-       {
-            btNode* oldroot_ptr = bst_root;
-            bst_root = bst_root->left;
-            delete oldroot_ptr;
-       }
-       else if (bst_root->left == 0 && bst_root->right != 0)    // root has 1 (right) child
-       {
-            btNode* oldroot_ptr = bst_root;
-            bst_root = bst_root->right;
-            delete oldroot_ptr;
-       }
-       else if (bst_root->left != 0 && bst_root->right != 0)    // root has 2 children
-       {
-           bst_remove_max(bst_root->left, bst_root->data);
-       }
-       return true;
+        if (bst_root->left == 0 || bst_root->right == 0)
+        {
+            btNode* old_bst_root = bst_root;
+
+            if (bst_root->left == 0)
+                bst_root = bst_root->right;
+
+            else if (bst_root->right == 0)
+                bst_root = bst_root->left;
+
+            else
+                bst_root = 0;
+
+            delete old_bst_root;
+        } else {
+            bst_remove_max(bst_root->left, bst_root->data);
+        }
+        return true;
     }
     return false;
 }
 
 // write definition for bst_remove_max here
-void bst_remove_max(btNode*& bst_lst_root, int& removed)    //TODO: this function doesn't seem to be working correctly
+void bst_remove_max(btNode*& bst_lst_root, int& removed)
 {
     if (bst_lst_root == 0) return;
 
-    if (bst_lst_root->right == 0)   // now at the largest node
-    // TODO: copy root nodes data into the data field ref parameter
-    // delete root node and make left child (may be 0) the new root
+    if (bst_lst_root->right == 0)
     {
-        removed = bst_lst_root->data;
-//        btNode* oldroot_ptr = bst_lst_root;
-//        bst_lst_root = bst_lst_root->left;
-//        delete oldroot_ptr;
-
-        if (bst_lst_root->left == 0)
+        if (bst_lst_root->left != 0)
         {
-            btNode* oldroot_ptr = bst_lst_root;
-            bst_lst_root = 0;
-            delete oldroot_ptr;
+            btNode *oldroot = bst_lst_root;
+            removed = bst_lst_root->data;
+            bst_lst_root = bst_lst_root->left;
+            delete oldroot;
         }
         else
         {
-            btNode* oldroot_ptr = bst_lst_root;
-            bst_lst_root = bst_lst_root->left;
-            delete oldroot_ptr;
+            removed = bst_lst_root->data;
+            delete bst_lst_root;
+            bst_lst_root = 0;
         }
-
+        return;
     }
     else
         bst_remove_max(bst_lst_root->right, removed);
 }
-
-
-
-
