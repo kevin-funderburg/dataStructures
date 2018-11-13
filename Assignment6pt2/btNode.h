@@ -56,6 +56,4 @@ bool bst_remove(btNode*& bst_root, const int remInt);
 // write prototype for bst_remove_max here
 void bst_remove_max(btNode*& bst_lst_root, int& removed);
 
-void myinorder(btNode*& root);
-
 #endif
