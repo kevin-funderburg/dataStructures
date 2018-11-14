@@ -34,6 +34,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0e422b6-ad2f-4917-bfd8-ecf1ac4c8d18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DPQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DPQueue.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DPQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/DPQueue.h" afterDir="false" />
     </list>
@@ -49,33 +50,34 @@
     <session id="2039501152">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="2" />
-          <entry key="h" value="2" />
+          <entry key="h" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="4" />
+          <entry key="ObjectiveC" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="977" />
-          <entry key="h" value="41" />
+          <entry key="cpp" value="1751" />
+          <entry key="h" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1018" />
+          <entry key="ObjectiveC" value="1829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -83,17 +85,18 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5790068">
+    <splitter split-orientation="horizontal" split-proportion="0.52157736">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DPQueue.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="430">
-                  <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+                <state relative-caret-position="104">
+                  <caret line="149" column="13" lean-forward="true" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                     <element signature="e#1110#1158#0" expanded="true" />
+                    <element signature="e#5366#5489#0" />
                   </folding>
                 </state>
               </provider>
@@ -102,8 +105,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assign07Test.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1552">
-                  <caret line="97" selection-start-line="97" selection-end-line="97" />
+                <state relative-caret-position="1776">
+                  <caret line="111" selection-start-line="111" selection-end-line="111" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                     <element signature="e#82#129#0" expanded="true" />
@@ -119,12 +122,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DPQueue.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1568">
-                  <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+                <state relative-caret-position="180">
+                  <caret line="86" column="75" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -154,8 +157,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -196,7 +199,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myShowDebugConsoleByDefault" value="true" />
@@ -242,31 +245,33 @@
       <workItem from="1542134733203" duration="759000" />
       <workItem from="1542135563960" duration="15000" />
       <workItem from="1542135589024" duration="19618000" />
+      <workItem from="1542170317419" duration="4219000" />
+      <workItem from="1542217086488" duration="1768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20392000" />
+    <option name="totallyTimeSpent" value="26379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45883778" visible="true" weight="0.29626688" />
-      <window_info id="Structure" order="1" sideWeight="0.54116225" side_tool="true" visible="true" weight="0.29626688" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45714286" visible="true" weight="0.18131869" />
+      <window_info id="Structure" order="1" sideWeight="0.54285717" side_tool="true" visible="true" weight="0.18131869" />
       <window_info id="Favorites" order="2" sideWeight="0.5377856" side_tool="true" weight="0.28819445" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3277372" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" visible="true" weight="0.3970803" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.39693877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.3270073" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49930555" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50208336" side_tool="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.32900944" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.3270073" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49791667" weight="0.3265306" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32900944" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Key Promoter X" order="0" />
@@ -284,35 +289,21 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/DPQueue.cpp</url>
-          <line>90</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DPQueue.h">
+    <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_ctype.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1568">
-          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="172">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assign07Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1552">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        <state relative-caret-position="1776">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#82#129#0" expanded="true" />
@@ -324,13 +315,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DPQueue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="86" column="75" selection-start-line="86" selection-start-column="75" selection-end-line="86" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DPQueue.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="104">
+          <caret line="149" column="13" lean-forward="true" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#1110#1158#0" expanded="true" />
+            <element signature="e#5366#5489#0" />
           </folding>
         </state>
       </provider>

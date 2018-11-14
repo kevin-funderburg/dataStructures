@@ -88,17 +88,25 @@ namespace CS3358_FA2018_A7
 
     p_queue::p_queue(size_type initial_capacity) : used(0), capacity(DEFAULT_CAPACITY)
     {
+//        if (initial_capacity <= 0)
+//            initial_capacity = DEFAULT_CAPACITY;
+//        capacity = initial_capacity;
+//        heap = new ItemType[capacity];  //FIXME: array doesn't seem to be made correctly (array size = 1 no matter capacity)
+
         if (initial_capacity <= 0)
             initial_capacity = DEFAULT_CAPACITY;
-        capacity = initial_capacity;
         heap = new ItemType[capacity];
+
     }
 
     p_queue::p_queue(const p_queue& src) : used(src.used), capacity(src.capacity)
     {
         heap = new ItemType[src.capacity];
-        for (int i = 0; i < src.used; ++i)
+        for (size_type i = 0; i < src.used; ++i)
+        {
             heap[i].data = src.heap[i].data;
+            heap[i].priority = src.heap[i].priority;    // TODO: see if we just copy heap[i] = src.heap[i]
+        }
     }
 
     p_queue::~p_queue() { delete [] heap; }
@@ -108,29 +116,74 @@ namespace CS3358_FA2018_A7
     {
         if (this != &rhs)
         {
-            if (capacity != rhs.capacity)
+//            if (capacity != rhs.capacity)
+//            {
+//                ItemType* newHeap = new ItemType[rhs.capacity];
+//                for (size_type i = 0; i < rhs.used; ++i)
+//                    newHeap[i] = rhs.heap[i];
+//                delete [] heap;
+//                heap = newHeap;
+//                capacity = rhs.capacity;
+//            }
+//            used = rhs.used;
+            ItemType* newHeap = new ItemType[rhs.capacity];
+            for (size_type i = 0; i < rhs.used; ++i)
             {
-                ItemType* newHeap = new ItemType[rhs.capacity];
-                for (size_type i = 0; i < rhs.used; ++i)
-                    newHeap[i] = rhs.heap[i];
-                delete [] heap;
-                heap = newHeap;
-                capacity = rhs.capacity;
+                newHeap[i].data = rhs.heap[i].data;
+                newHeap[i].priority = rhs.heap[i].priority;
             }
-            used = rhs.used;
         }
         return *this;
     }
 
     void p_queue::push(const value_type& entry, size_type priority)     //TODO
     {
-
+        if (used == capacity)
+            resize((capacity * 2) + 1);
+        heap[used].data = entry;
+        heap[used].priority = priority;
         used++;
+        size_type i = used - 1;
+        if (used > 1)
+        {
+            while (i > 0 && priority > parent_priority(i))
+            {
+                swap_with_parent(i);
+                i = parent_index(i);
+            }
+        }
+//        if (used == capacity)
+//            resize( size_type(1.5 * used) + 1 );
+//
+//        used++;
+//        heap[used - 1].data = entry;
+//        heap[used - 1].priority = priority;
+
+//        size_type i = used;
+//        while (heap[i].priority > parent_priority(i))       // reheapification upward
+//        {
+//            swap_with_parent(i);
+//            i--;
+//        }
     }
 
     void p_queue::pop()     //TODO
     {
         assert(size() > 0);
+        if (used == 1)
+            used--;
+        else
+        {
+            heap[0] = heap[used - 1];
+            used--;
+
+            size_type i = 0;
+
+            while (i < used && heap[i].priority < big_child_priority(i))
+            {
+                swap_with_parent(big_child_index(i));
+            }
+        }
     }
 
     // CONSTANT MEMBER FUNCTIONS
@@ -139,7 +192,7 @@ namespace CS3358_FA2018_A7
 
     bool p_queue::empty() const { return used <= 0; }
 
-    p_queue::value_type p_queue::front() const      //TODO
+    p_queue::value_type p_queue::front() const
     {
         assert(size() > 0);
         return heap[0].data;
@@ -155,7 +208,16 @@ namespace CS3358_FA2018_A7
     //       NOTE: All existing items in the p_queue are preserved and
     //             used remains unchanged.
     {
-        cerr << "resize(size_type) not implemented yet" << endl;
+        if (new_capacity < 1)
+            new_capacity = 1;
+        if (new_capacity < used)
+            new_capacity = used;
+        capacity = new_capacity;
+        ItemType* newHeap = new ItemType[new_capacity];
+        for (size_type i = 0; i < used; ++i)
+            newHeap[i] = heap[i];
+        delete [] heap;
+        heap = newHeap;
     }
 
     bool p_queue::is_leaf(size_type i) const
@@ -164,9 +226,7 @@ namespace CS3358_FA2018_A7
     //       returned, otherwise false has been returned.
     {
         assert(i < used);
-//        return (2 * i + 1) > used;
-        if ((2 * i + 1) > used) return true;
-        return false;
+        return (2 * i + 1) > used;
     }
 
     p_queue::size_type
@@ -198,10 +258,13 @@ namespace CS3358_FA2018_A7
     //       than that of the other child, if there is one.)
     {
         assert(!is_leaf(i));
-        if (heap[(2 * i + 1)].priority > heap[(2 * i + 2)].priority)
-            return 2 * i + 1;
+        size_type leftChild = 2 * i + 1;
+        size_type rightChild = 2 * i + 2;
+
+        if (heap[leftChild].priority > heap[rightChild].priority)
+            return leftChild;
         else
-            return 2 * i + 2;
+            return rightChild;
     }
 
     p_queue::size_type
@@ -216,16 +279,13 @@ namespace CS3358_FA2018_A7
         return heap[big_child_index(i)].priority;
     }
 
-    void p_queue::swap_with_parent(size_type i)         //TODO
+    void p_queue::swap_with_parent(size_type i)
     // Pre:  (i > 0) && (i < used)
     // Post: The item at heap[i] has been swapped with its parent.
     {
         assert((i > 0) && (i < used));
-//        if (heap[i].priority > parent_priority(i))
-//        {
         ItemType temp = heap[parent_index(i)];
         heap[parent_index(i)] = heap[i];
         heap[i] = temp;
-//        }
     }
 }

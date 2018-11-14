@@ -84,7 +84,7 @@ namespace CS3358_FA2018_A7
       // TYPEDEFS and MEMBER CONSTANTS
       typedef int value_type;
       typedef size_t size_type;
-      static const size_type DEFAULT_CAPACITY = 1;
+      static const size_type DEFAULT_CAPACITY = 10;   //TODO: set back to 1
       // CONSTRUCTORS AND DESTRUCTOR
       p_queue(size_type initial_capacity = DEFAULT_CAPACITY);
       p_queue(const p_queue& src);
