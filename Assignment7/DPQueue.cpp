@@ -86,27 +86,39 @@ namespace CS3358_FA2018_A7
 
     // CONSTRUCTORS AND DESTRUCTOR
 
-    p_queue::p_queue(size_type initial_capacity)        //TODO
+    p_queue::p_queue(size_type initial_capacity) : used(0), capacity(DEFAULT_CAPACITY)
     {
         if (initial_capacity <= 0)
             initial_capacity = DEFAULT_CAPACITY;
-
+        capacity = initial_capacity;
+        heap = new ItemType[capacity];
     }
 
-    p_queue::p_queue(const p_queue& src)        //TODO
+    p_queue::p_queue(const p_queue& src) : used(src.used), capacity(src.capacity)
     {
-        cerr << "p_queue(const p_queue&) not implemented yet" << endl;
+        heap = new ItemType[src.capacity];
+        for (int i = 0; i < src.used; ++i)
+            heap[i].data = src.heap[i].data;
     }
 
-    p_queue::~p_queue()     //TODO
-    {
-        cerr << "~p_queue() not implemented yet" << endl;
-    }
+    p_queue::~p_queue() { delete [] heap; }
 
     // MODIFICATION MEMBER FUNCTIONS
-    p_queue& p_queue::operator=(const p_queue& rhs)     //TODO
+    p_queue& p_queue::operator=(const p_queue& rhs)
     {
-        cerr << "operator=(const p_queue&) not implemented yet" << endl;
+        if (this != &rhs)
+        {
+            if (capacity != rhs.capacity)
+            {
+                ItemType* newHeap = new ItemType[rhs.capacity];
+                for (size_type i = 0; i < rhs.used; ++i)
+                    newHeap[i] = rhs.heap[i];
+                delete [] heap;
+                heap = newHeap;
+                capacity = rhs.capacity;
+            }
+            used = rhs.used;
+        }
         return *this;
     }
 
@@ -123,23 +135,14 @@ namespace CS3358_FA2018_A7
 
     // CONSTANT MEMBER FUNCTIONS
 
-    p_queue::size_type p_queue::size() const    //TODO
-    {
-        return used;
-    }
+    p_queue::size_type p_queue::size() const { return used; }
 
-    bool p_queue::empty() const     //TODO
-    {
-        if (size() > 0) return false;
-        return true;
-    }
+    bool p_queue::empty() const { return used <= 0; }
 
     p_queue::value_type p_queue::front() const      //TODO
     {
         assert(size() > 0);
-
-
-        return value_type(); // dummy return value
+        return heap[0].data;
     }
 
     // PRIVATE HELPER FUNCTIONS
@@ -155,34 +158,35 @@ namespace CS3358_FA2018_A7
         cerr << "resize(size_type) not implemented yet" << endl;
     }
 
-    bool p_queue::is_leaf(size_type i) const        //TODO
+    bool p_queue::is_leaf(size_type i) const
     // Pre:  (i < used)
     // Post: If the item at heap[i] has no children, true has been
     //       returned, otherwise false has been returned.
     {
         assert(i < used);
-
+//        return (2 * i + 1) > used;
+        if ((2 * i + 1) > used) return true;
+        return false;
     }
 
     p_queue::size_type
-    p_queue::parent_index(size_type i) const        //TODO
+    p_queue::parent_index(size_type i) const
     // Pre:  (i > 0) && (i < used)
     // Post: The index of "the parent of the item at heap[i]" has
     //       been returned.
     {
-        cerr << "parent_index(size_type) not implemented yet" << endl;
-        return 0; // dummy return value
+        assert((i > 0) && (i < used));
+        return ((i - 2) / 2);
     }
 
     p_queue::size_type
-    p_queue::parent_priority(size_type i) const     //TODO
+    p_queue::parent_priority(size_type i) const
     // Pre:  (i > 0) && (i < used)
     // Post: The priority of "the parent of the item at heap[i]" has
     //       been returned.
     {
         assert((i > 0) && (i < used));
-
-        return 0;
+        return heap[parent_index(i)].priority;
     }
 
     p_queue::size_type
@@ -194,12 +198,14 @@ namespace CS3358_FA2018_A7
     //       than that of the other child, if there is one.)
     {
         assert(!is_leaf(i));
-
-        return 0;
+        if (heap[(2 * i + 1)].priority > heap[(2 * i + 2)].priority)
+            return 2 * i + 1;
+        else
+            return 2 * i + 2;
     }
 
     p_queue::size_type
-    p_queue::big_child_priority(size_type i) const      //TODO
+    p_queue::big_child_priority(size_type i) const
     // Pre:  is_leaf(i) returns false
     // Post: The priority of "the bigger child of the item at heap[i]"
     //       has been returned.
@@ -207,8 +213,7 @@ namespace CS3358_FA2018_A7
     //       than that of the other child, if there is one.)
     {
         assert(!is_leaf(i));
-
-        return 0;
+        return heap[big_child_index(i)].priority;
     }
 
     void p_queue::swap_with_parent(size_type i)         //TODO
@@ -216,10 +221,11 @@ namespace CS3358_FA2018_A7
     // Post: The item at heap[i] has been swapped with its parent.
     {
         assert((i > 0) && (i < used));
-        if (heap[i].priority > heap[i - 1].priority) {
-            ItemType temp = heap[i - 1];
-            heap[i - 1] = heap[i];
-            heap[i] = temp;
-        }
+//        if (heap[i].priority > parent_priority(i))
+//        {
+        ItemType temp = heap[parent_index(i)];
+        heap[parent_index(i)] = heap[i];
+        heap[i] = temp;
+//        }
     }
 }

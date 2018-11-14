@@ -57,9 +57,9 @@
 //
 //   value_type front() const
 //     Pre:  size() > 0.
-//     Post: The return value is the data of the -*highest priority*-
-//           item in the p_queue, but the p_queue is -*unchanged*-.
-//           (If several items have equal priority, then the
+//     Post: The return value is the data of the highest priority
+//           item in the p_queue, but the p_queue is unchanged.
+//           -*(If several items have equal priority*-, then the
 //           implementation may decide which one to return.)
 //
 //   bool empty() const
