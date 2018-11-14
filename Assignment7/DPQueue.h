@@ -40,7 +40,7 @@
 // MODIFICATION MEMBER FUNCTIONS for the p_queue class:
 //   void push(const value_type& entry, size_type priority)
 //     Pre:  (none)
-//     Post: A -*new copy of item*- with the specified data and priority
+//     Post: A new copy of item with the specified data and priority
 //           has been added to the p_queue.
 //
 //   void pop()
@@ -59,7 +59,7 @@
 //     Pre:  size() > 0.
 //     Post: The return value is the data of the highest priority
 //           item in the p_queue, but the p_queue is unchanged.
-//           -*(If several items have equal priority*-, then the
+//           (If several items have equal priority, then the
 //           implementation may decide which one to return.)
 //
 //   bool empty() const
@@ -84,7 +84,7 @@ namespace CS3358_FA2018_A7
       // TYPEDEFS and MEMBER CONSTANTS
       typedef int value_type;
       typedef size_t size_type;
-      static const size_type DEFAULT_CAPACITY = 10;   //TODO: set back to 1
+      static const size_type DEFAULT_CAPACITY = 1;
       // CONSTRUCTORS AND DESTRUCTOR
       p_queue(size_type initial_capacity = DEFAULT_CAPACITY);
       p_queue(const p_queue& src);
