@@ -124,7 +124,7 @@ namespace CS3358_FA2018_A7
         size_type i = used - 1;
         if (used > 1)
         {
-            while (i > 0 && priority > parent_priority(i))
+            while (i > 0 && priority > parent_priority(i))  // reheapification upward
             {
                 swap_with_parent(i);
                 i = parent_index(i);
@@ -141,15 +141,15 @@ namespace CS3358_FA2018_A7
             heap[0] = heap[used - 1];
             --used;
 
-            size_type i = 0, next = 0;
+            size_type i = 0, child = 0;
             size_type priority = heap[0].priority;
             size_type child_priority = big_child_priority(0);
 
             while (i < used && priority < child_priority)
             {
-                next = big_child_index(i);
-                swap_with_parent(next);
-                i = next;
+                child = big_child_index(i);
+                swap_with_parent(child);
+                i = child;
                 if (!is_leaf(i))
                     child_priority = big_child_priority(i);
                 else
